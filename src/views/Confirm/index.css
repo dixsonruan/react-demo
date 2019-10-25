@@ -1,0 +1,23 @@
+.confirm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    position: fixed;
+    margin: -75px 0 0 -150px;
+    border: 1px solid #ccc;
+    top: 50%;
+    left: 50%;
+}
+.confirm .confirm__msg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.confirm .confirm__btn {
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+}
